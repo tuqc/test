@@ -8,8 +8,8 @@ nmap <silent> <C-j> :FufCoverageFile<CR>
 nmap <silent> <F12> :FufMruFile<cr>
 
 " 使用上下来调节窗口大小
-nmap <silent> <UP> <C-W>+:let t:flwwinlayout = winrestcmd()<CR>
-nmap <silent> <DOWN> <C-W>-:let t:flwwinlayout = winrestcmd()<CR>
+"nmap <silent> <UP> <C-W>+:let t:flwwinlayout = winrestcmd()<CR>
+"nmap <silent> <DOWN> <C-W>-:let t:flwwinlayout = winrestcmd()<CR>
 
 " 使用 P 来粘贴最近一次 yank 的文字
 nmap P "0p
